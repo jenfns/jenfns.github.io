@@ -1,0 +1,254 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote 
+{
+padding: 0;
+margin: 0;
+font-weight: normal;
+}
+table 
+{ 
+border-collapse: collapse; 
+border-spacing: 0; 
+}
+td, th, caption 
+{ 
+font-weight: normal; 
+text-align: left; 
+}
+img, fieldset 
+{ 
+border: 0; 
+}
+ol 
+{ 
+padding-left: 0px; 
+list-style: decimal; 
+}
+ul 
+{ padding-left: 0px; 
+list-style:square; 
+}
+q:before, q:after 
+{ 
+content:''; 
+}	
+/* End Resets */
+
+
+
+body
+    {
+    font-family: georgia, serif;
+    }
+    
+.MathJax, .MathJax_Display { vertical-align: baseline }
+.MathJax *, .MathJax_Display * { vertical-align: baseline }
+
+
+
+
+#siteheader
+    {
+    font-size:48px;
+    float:left;
+    margin-top:24px;
+    margin-bottom:24px;
+    }
+ 
+.contentcolumn
+    {
+    width:720px;
+    margin:auto;
+    clear:both;
+    font-size:18px;
+    line-height:150%;
+    text-align:justify;
+    text-justify:auto;
+    letter-spacing: normal;
+    counter-reset: sectioncounter;
+    counter-reset: subsectioncounter;
+    }
+.pagetopicheader
+    {
+    clear:both;
+    font-size:36px;
+    font-weight:normal;
+    margin-top:84px;
+    margin-bottom:42px;
+    }
+#TOC 
+    {    
+    background-color: #f9f9f9;
+    border:1px solid #aaaaaa;     
+    padding:24px;     
+    clear:both;
+    float:left;
+    margin-bottom:27px;
+    margin-top:27px; 
+    line-height:110%;
+    }
+    .TOCEntry {  }
+    .TOCEntry a {text-decoration: none; color:#004276;}
+    .TOCEntry a:visited {color:#004276;}
+    .TOCLevel1 { font-size: 18px; font-weight: normal; padding-top:9px;padding-bottom:9px;}
+    .TOCLevel2 { font-size: 16px; margin-left: 24px; }
+    .TOCLevel3 { display:none; }
+    .TOCSectNum:after { content: "  "; }
+
+h1
+    {
+    font-weight: bold;
+    font-style: normal;
+    clear: both;
+    font-size: 24px;
+    margin-top:48px;
+    margin-bottom:36px;
+    }
+h2
+    {
+    font-weight: bold;
+    font-style: normal;
+    clear: both;
+    font-size: 21px;
+    margin-top:36px;
+    margin-bottom:24px;  
+    }
+h3
+    {
+    font-weight:bold;
+    font-style:normal;
+    font-size:18px;
+    margin-right:14px;
+    display:inline;
+    }
+    
+.abstracthead
+	{
+	color:#004276;
+	margin-left:10px;
+	text-decoration: none; 
+	}
+	
+.abstract
+	{
+	display: none; 
+	margin-left:21px;
+	margin-right:21px;
+	margin-top:14px;
+	margin-bottom:14px;
+	}
+ul.publications
+	{	
+	 list-style-image: url("bullet-icon.png");
+	 margin-top:0px;
+	 margin-left: 30px;
+	 margin-bottom: 0px;
+	}
+ul.publications li
+	{
+	margin-left: 0px;
+	margin-bottom: 5px;
+	}
+   
+
+
+#fontselect
+    {
+    float:right;
+    }
+.section
+    {
+    counter-increment: sectioncounter;
+    counter-reset:subsectioncounter;
+    }
+.subsection
+    {
+    clear:both;
+    line-height:150%;
+    counter-reset:theoremcounter;
+    counter-increment: subsectioncounter;
+    }
+.sideremark
+    {
+    float:left;
+    display:block;
+    margin-left:-162px;
+    width:108px;
+    position:absolute;
+    font-style: italic;
+    font-size:16px;
+    line-height:24px;
+    text-align:left;
+    }
+.theorem
+    {
+    font-weight: normal;
+    font-style: italic;
+    clear: both;
+    margin-top:24px;
+    margin-bottom:12px;
+    }
+ol.enumerate
+    {
+     list-style-type: lower-roman;
+    }
+ol.enumerate li
+    {
+     list-style-type: lower-roman;
+     margin-top: 12px;
+     margin-bottom: 12px;
+     margin-left: 48px; 
+    }
+.proof
+    {
+    margin-bottom:24px;
+    }
+.qed
+    {
+    height:16px;
+    width:16px;
+    border:1px black solid;
+    display:inline-block;
+    float:right;
+    }
+a.generallink 
+    {
+    text-decoration: none; 
+    color:#3083AC;
+    }
+a.generallink:visited 
+    {
+    text-decoration: none;
+    color:#004276;
+    }
+a.theoremlink 
+    {
+    text-decoration: none; 
+    color:#004276;
+    }
+a.theoremlink:visited 
+    {
+    text-decoration: none;
+    color:#004276;
+    }
+a.bib
+    {
+    text-decoration: none; 
+    color:#004276;
+    }
+ul.bibliography
+    {	
+    list-style-type: none;
+    margin-top:0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    }
+ul.bibliography li
+    {
+    margin-bottom: 5px;
+    margin-left: 72px;
+    }
+.itemname
+    {
+    margin-left:-72px;
+    position:absolute;
+    }
